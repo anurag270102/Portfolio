@@ -10,7 +10,6 @@ const Project = () => {
               <h1>Hover!</h1>
               <p>Slide in from left</p>
             </span>
-            
           </div>
         </div>
         {/* ... other grid items ... */}
