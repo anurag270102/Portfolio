@@ -1,0 +1,337 @@
+.typewriter {
+  font-size: 200%;
+  
+}
+
+.typewriter:after {
+  content: '';
+  color: rgb(0, 0, 0);
+  animation: write 10s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes write {
+  1% {
+    content: 'F';
+  }
+
+  2% {
+    content: 'Fu';
+  }
+
+  3% {
+    content: 'Ful';
+  }
+
+  4% {
+    content: 'Full';
+  }
+
+  5% {
+    content: 'Full ';
+  }
+
+  6% {
+    content: 'Full S';
+  }
+
+  7% {
+    content: 'Full St';
+  }
+
+  8% {
+    content: 'Full Sta';
+  }
+
+  14% {
+    content: 'Full Stac';
+  }
+
+  14.5% {
+    content: 'Full Stack';
+  }
+
+  15% {
+    content: 'Full Stack ';
+  }
+
+  15.5% {
+    content: 'Full Stack D';
+  }
+
+  16% {
+    content: 'Full Stack De';
+  }
+
+  16.5% {
+    content: 'Full Stack Dev';
+  }
+
+  17% {
+    content: 'Full Stack Deve';
+  }
+
+  17.5% {
+    content: 'Full Stack Devel';
+  }
+
+  18% {
+    content: 'Full Stack Develo';
+  }
+
+  20% {
+    content: 'Full Stack Develop';
+  }
+
+  21% {
+    content: 'Full Stack Develope';
+  }
+
+  22% {
+    content: 'Full Stack Developer';
+  }
+
+  23% {
+    content: 'Full Stack Develope';
+  }
+
+  24% {
+    content: 'Full Stack Develop';
+  }
+
+  25% {
+    content: 'Full Stack Develo';
+  }
+
+  26% {
+    content: 'Full Stack Devel';
+  }
+
+  27% {
+    content: 'Full Stack Deve';
+  }
+
+  28% {
+    content: 'Full Stack Dev';
+  }
+
+  34% {
+    content: 'Full Stack De';
+  }
+
+  35.5% {
+    content: 'Full Stack D';
+  }
+
+  36% {
+    content: 'Full Stack';
+  }
+
+  36.5% {
+    content: 'Full Stac';
+  }
+
+  37% {
+    content: 'Full Sta';
+  }
+
+  37.5% {
+    content: 'Full St';
+  }
+
+  38% {
+    content: 'Full S';
+  }
+
+  38.5% {
+    content: 'Full ';
+  }
+
+  39% {
+    content: 'Full';
+  }
+
+  39.5% {
+    content: 'Ful';
+  }
+
+  42% {
+    content: 'Fu';
+  }
+
+  43% {
+    content: 'F';
+  }
+
+  44% {
+    content: 'Fu';
+  }
+
+  45% {
+    content: 'Ful';
+  }
+
+  46% {
+    content: 'Full';
+  }
+
+  47% {
+    content: 'Full ';
+  }
+
+  48% {
+    content: 'Full S';
+  }
+
+  49% {
+    content: 'Full St';
+  }
+
+  50% {
+    content: 'Full Sta';
+  }
+
+  56% {
+    content: 'Full Stac';
+  }
+
+  56.5% {
+    content: 'Full Stack';
+  }
+
+  57% {
+    content: 'Full Stack ';
+  }
+
+  57.5% {
+    content: 'Full Stack D';
+  }
+
+  59% {
+    content: 'Full Stack De';
+  }
+
+  59.5% {
+    content: 'Full Stack Dev';
+  }
+
+  60% {
+    content: 'Full Stack Deve';
+  }
+
+  60.5% {
+    content: 'Full Stack Devel';
+  }
+
+  61% {
+    content: 'Full Stack Develo';
+  }
+
+  63% {
+    content: 'Full Stack Develop';
+  }
+
+  64% {
+    content: 'Full Stack Develope';
+  }
+
+  65% {
+    content: 'Full Stack Developer';
+  }
+
+  66% {
+    content: 'Full Stack Develope';
+  }
+
+  67% {
+    content: 'Full Stack Develop';
+  }
+
+  68% {
+    content: 'Full Stack Develo';
+  }
+
+  69% {
+    content: 'Full Stack Devel';
+  }
+
+  70% {
+    content: 'Full Stack Deve';
+  }
+
+  71% {
+    content: 'Full Stack Dev';
+  }
+
+  77% {
+    content: 'Full Stack De';
+  }
+
+  77.5% {
+    content: 'Full Stack D';
+  }
+
+  78% {
+    content: 'Full Stack';
+  }
+
+  78.5% {
+    content: 'Full Stac';
+  }
+
+  79% {
+    content: 'Full Sta';
+  }
+
+  79.5% {
+    content: 'Full St';
+  }
+
+  80% {
+    content: 'Full S';
+  }
+
+  82.5% {
+    content: 'Full ';
+  }
+
+  83% {
+    content: 'Full';
+  }
+
+  84.5% {
+    content: 'Ful';
+  }
+
+  85% {
+    content: 'Fu';
+  }
+
+  86% {
+    content: 'F';
+  }
+  87%{
+    content: 'H';
+  }
+  89%{
+    content: 'He';
+  }
+  90%{
+    content: 'Hel';
+  }
+  91%{
+    content: 'Hell';
+  }
+  93%{
+    content: 'Hello';
+  }
+  95%{
+    content: 'Hello.';
+  }
+  100% {
+    color: #000;
+    content: 'Hello.';
+  }
+}
