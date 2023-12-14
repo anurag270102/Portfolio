@@ -11,7 +11,7 @@ const About = () => {
                         title={'Collage'}
                         time={'OCT 2021 - PRESENT'}
                         per={'9.42 CGPA'}
-                        name1={'CHAROTER UNIVERSITY  '}
+                        name1={'CHAROTAR UNIVERSITY  '}
                         city={'ANAND,INDIA'}
                     >
                     </Education>
