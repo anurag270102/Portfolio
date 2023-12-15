@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+
 const Contact = () => {
   const form = useRef();
 
@@ -43,7 +44,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-
     </div>
 
   );
