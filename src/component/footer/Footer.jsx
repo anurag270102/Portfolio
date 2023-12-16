@@ -1,6 +1,6 @@
 const Footer = () => {
     return ([
-        <div key={1212} className="w-full bg-[#ffffff]   text-black px-14 shadow-lg shadow-[#cec]">
+        <div key={1212} className="w-full bg-gradient-to-b  from-white to-[#cecece] text-black px-14 shadow-lg shadow-[#cec]">
             <div className="w-[10/12] flex justify-between flex-col md:flex-row items-center py-2 gap-3">
                 <div>
                     <a href="#hero" >

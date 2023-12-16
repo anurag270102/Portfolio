@@ -17,12 +17,12 @@ const Contact = () => {
   return (
     <div>
       <h2 className="font-PlayfairDisplaySC font-bold mx-auto items-center text-center text-black text-4xl mt-10">Contact</h2>
-      <div className='flex flex-col lg:flex-row w-[10/12] justify-center item-center lg:ml-10'>
-        <div className='lg:w-[600px] flex items-center md:w-[400px] mx-auto w-[300px]'>
+      <div className='w-[10/12] lg:px-[100px] py-2 flex flex-col lg:flex-row justify-center item-center'>
+        <div className='lg:w-[800px] flex items-center md:w-[400px] mx-auto w-[300px]'>
           <img src="/assets/Wavy_Bus-19_Single-03.jpg" width={'100%'} height={'100%'} alt="" />
         </div>
-        <div className='w-full'>
-          <form ref={form} onSubmit={sendEmail} className="max-w-md mx-auto mt-8 p-4  rounded shadow-md font-sen">
+        <div className='w-full flex items-center justify-center'>
+          <form ref={form} onSubmit={sendEmail} className="w-full max-w-md mt-8 p-4  rounded shadow-md font-sen">
             <div className="mb-4">
               <label htmlFor="from_name" className="block text-gray-700 text-sm font-bold mb-2">Name</label>
               <input type="text" name="from_name" id="from_name" required className="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500" />
