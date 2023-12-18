@@ -4,7 +4,7 @@ const Project = () => {
   const Weather_tech=['HTML','CSS','JS'];
   const Simon_tech=['HTML','CSS','JQuery','JS'];
   const Drumkit_tech=['HTML','CSS','JS'];
-  const Fiverrclone_tech=['ReactJS','NodeJS','ExpressJS','Mongo DB','SCSS','Cloudinary','Stripe'];
+  const Fiverrclone_tech=['MERN','SCSS','Cloudinary','Stripe'];
   return ([
     <div key={1212}>
       <h2 className="font-PlayfairDisplaySC font-bold mx-auto items-center text-center text-black text-4xl mt-5 ">Projects</h2>
