@@ -25,9 +25,9 @@ const ProjectCard = (props) => {
                         alt="demo image"
                         loading='lazy'
                     />
-                    <div className="info font-sen p-3 text-white text-left ">
+                    <div className="info font-sen  text-white text-left ">
                         <h2 className='font-sen font-bold text-left'>TECHNOLOGIES</h2>
-                        <ul className='mt-2 overflow-scroll scroll-smooth max-h-[400px] overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#cecece]'>
+                        <ul className=' overflow-scroll scroll-smooth pl-2 overflow-y-auto overflow-x-hidden [&::-webkit-scrollbar]:w-[1px] [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#cecece]'>
                             <li>
                                 {
                                     props.tech.map((item,index)=><li key={index}>{item}</li>)
