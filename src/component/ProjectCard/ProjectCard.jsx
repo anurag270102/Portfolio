@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Project.css';
 const ProjectCard = (props) => {
-    console.log(props);
+    
     return ([
         <div key={2223}>
             <div id="container" className='w-[320px] h-[500px] lg:w-[645px]  lg:h-[300px]  flex lg:flex-row flex-col-reverse  md:gap-5 sm:gap-10  shadow-md'>
@@ -28,11 +28,11 @@ const ProjectCard = (props) => {
                     <div className="info font-sen  text-white text-left ">
                         <h2 className='font-sen font-bold text-left'>TECHNOLOGIES</h2>
                         <ul className=' overflow-scroll scroll-smooth pl-2 overflow-y-scroll overflow-x-hidden [&::-webkit-scrollbar]:w-[1px] [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#cecece]'>
-                            <li>
+                           
                                 {
                                     props.tech.map((item,index)=><li key={index}>{item}</li>)
                                 }
-                            </li>
+                          
                             
                         </ul>
                     </div>

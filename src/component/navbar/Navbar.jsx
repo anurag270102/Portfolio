@@ -14,7 +14,7 @@ const Navbar = () => {
     window.scrollY > 30 ? setnavbg(true) : setnavbg(false);
   }
   useEffect(() => {
-    console.log(window.screenY);
+    
     window.addEventListener('scroll', isActive);
     return () => {
       window.removeEventListener('scroll', isActive);

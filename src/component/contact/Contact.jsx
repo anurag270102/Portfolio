@@ -5,8 +5,8 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm(import.meta.env.SERVICE, import.meta.env.TEMP, form.current, import.meta.env.KEY)
+    console.log(import.meta.env.VITE_APP_SERVICE);
+    emailjs.sendForm(import.meta.env.VITE_APP_SERVICE, import.meta.env.VITE_APP_TEMP, form.current, import.meta.env.VITE_APP_KEY)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
