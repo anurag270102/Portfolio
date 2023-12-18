@@ -28,7 +28,7 @@ const ProjectCard = (props) => {
                     />
                     <div className="info font-sen p-3 text-white text-left ">
                         <h2 className='font-sen font-bold text-left'>TECHNOLOGIES</h2>
-                        <ul className='mt-2'>
+                        <ul className='mt-2 overflow-scroll'>
                             <li>
                                 {
                                     props.tech.map((item,index)=><li key={index}>{item}</li>)
