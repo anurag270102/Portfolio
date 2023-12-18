@@ -7,8 +7,7 @@ const ProjectCard = (props) => {
             <div id="container" className='w-[320px] h-[500px] lg:w-[645px]  lg:h-[300px]  flex lg:flex-row flex-col-reverse  md:gap-5 sm:gap-10  shadow-md'>
                 <div className="product-details w-full lg:w-[50%] max-h-[300px] flex flex-col lg:p-3 pb-4 gap-5 px-2">
                     <h1 className='font-sen font-bold text-[18px] lg:text-[25px] text-left'>{props.title}</h1>
-                    <p className=" font-sen text-justify  scroll-smooth max-h-[400px] overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#cecece]
-">
+                    <p className=" font-sen text-justify  scroll-smooth max-h-[400px] overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#cecece]">
                         {props.desc}
                     </p>
                     <Link to={props.code} >
@@ -28,7 +27,7 @@ const ProjectCard = (props) => {
                     />
                     <div className="info font-sen p-3 text-white text-left ">
                         <h2 className='font-sen font-bold text-left'>TECHNOLOGIES</h2>
-                        <ul className='mt-2 overflow-scroll'>
+                        <ul className='mt-2 overflow-scroll scroll-smooth max-h-[400px] overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#cecece]'>
                             <li>
                                 {
                                     props.tech.map((item,index)=><li key={index}>{item}</li>)
