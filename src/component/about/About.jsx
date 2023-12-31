@@ -10,7 +10,7 @@ const About = () => {
                     <Education
                         title={'Collage'}
                         time={'OCT 2021 - PRESENT'}
-                        per={'9.42 CGPA'}
+                        per={'9.39 CGPA'}
                         name1={'CHAROTAR UNIVERSITY  '}
                         city={'ANAND,INDIA'}
                     >
