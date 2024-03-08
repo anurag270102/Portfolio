@@ -1,16 +1,18 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 const Contact = () => {
   const form = useRef();
-
+  const [submit,setsubmit]=useState('Send');
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(import.meta.env.VITE_APP_SERVICE, import.meta.env.VITE_APP_TEMP, form.current, import.meta.env.VITE_APP_KEY)
       .then((result) => {
         console.log(result.text);
+        setsubmit('Sent');
       }, (error) => {
         console.log(error.text);
       });
+      
   };
   return (
     <div>
@@ -33,9 +35,9 @@ const Contact = () => {
               <label htmlFor="message" className="block text-gray-700 text-sm font-bold mb-2">Message</label>
               <textarea name="message" id="message" required className="w-full px-3 py-2 border rounded focus:outline-none focus:border-blue-500"></textarea>
             </div>
-            <button type="submit" className="w-full bg-[#fff] text-black hover:text-gray-200 font-sen font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue">
+            <button type="submit" className="w-full bg-[#fff] text-black hover:text-gray-600 font-sen font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue">
              <div className='flex justify-center items-center gap-10'>
-              Send
+              {submit}
               <img src="/assets/icons8-sent.gif" alt=""  className='w-[20px]'/>
              </div>
               </button>
