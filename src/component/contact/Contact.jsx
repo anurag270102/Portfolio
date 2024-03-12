@@ -6,13 +6,15 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(import.meta.env.VITE_APP_SERVICE, import.meta.env.VITE_APP_TEMP, form.current, import.meta.env.VITE_APP_KEY)
+      console.log(import.meta.env.VITE_APP_SERVICE)
+      console.log(import.meta.env.VITE_APP_TEMP)
+      console.log(import.meta.env.VITE_APP_KEY)
       .then((result) => {
         console.log(result.text);
         setsubmit('Sent');
       }, (error) => {
         console.log(error.text);
       });
-      
   };
   return (
     <div>
