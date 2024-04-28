@@ -26,7 +26,7 @@ const About = () => {
                     <Education title={'Secondary'}
                         time={'JUN 2017 - MAR 2019'}
                         per={'87.33%'}
-                        name1={'SMT. R.M. TILVA MADHYAMIIK VIDHYALAY  '}
+                        name1={'SMT. R.M. TILVA MADHYAMIK VIDHYALAY  '}
                         city={'JAMNAGAR,INDIA'}
                     >
                     </Education>
