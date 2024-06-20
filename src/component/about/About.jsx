@@ -10,7 +10,7 @@ const About = () => {
                     <Education
                         title={'Collage'}
                         time={'OCT 2021 - PRESENT'}
-                        per={'9.37 CGPA'}
+                        per={'9.32 CGPA'}
                         name1={'CHAROTAR UNIVERSITY  '}
                         city={'ANAND,INDIA'}
                     >
@@ -18,7 +18,7 @@ const About = () => {
                     <Education
                         title={'Higher Secondary'}
                         time={'JUN 2019 - MAR 2021'}
-                        per={'85.61%'}
+                        per={'85%'}
                         name1={'SHAKTI HIGHER SECONDARY SCHOOL  '}
                         city={'RAJKOT,INDIA'}
                     >
@@ -42,6 +42,14 @@ const About = () => {
                     title={'Internship'}
                     city={'AHMEDABAD,INDIA'}
                     tech={'HTML,CSS,JS,REACT JS'}
+                    desc={'During my internship, I applied my acquired skills in various technologies, including React JS, HTML5, CSS3, Bootstrap, and NPM, surpassing expectations in both depth and breadth of application. I also extended my proficiency to UI/UX design, incorporating tools like Material UI and utilizing command prompt styling with packages such as chalk.'}>
+                </Experience>
+                <Experience
+                    name1={'CODSOFT '}
+                    time={'MAY 2024 - JUN 2024'}
+                    title={'Internship'}
+                    city={'KOLKATA,INDIA'}
+                    tech={'MERN STACK'}
                     desc={'During my internship, I applied my acquired skills in various technologies, including React JS, HTML5, CSS3, Bootstrap, and NPM, surpassing expectations in both depth and breadth of application. I also extended my proficiency to UI/UX design, incorporating tools like Material UI and utilizing command prompt styling with packages such as chalk.'}>
                 </Experience>
             </div>

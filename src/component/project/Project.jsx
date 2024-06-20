@@ -6,6 +6,7 @@ const Project = () => {
   const Drumkit_tech = ['HTML', 'CSS', 'JS'];
   const Fiverrclone_tech = ['MERN', 'SCSS', 'Cloudinary', 'Stripe'];
   const CodeEditor_tech=['ReactJS','Socket.io','NodeJS','Codemirror','CSS'];
+  const Blogblaze_tech=['MERN','Cloudinary','TailwindCSS'];
   return ([
     <div key={1212}>
       <h2 className="font-PlayfairDisplaySC font-bold mx-auto items-center text-center text-black text-4xl mt-5 ">Projects</h2>
@@ -17,6 +18,14 @@ const Project = () => {
           code={'https://github.com/anurag270102/fiverr-clone'}
           tech={Fiverrclone_tech}
         ></ProjectCard>
+        <ProjectCard
+          title={'Blog Blaze'}
+          desc={`BlogBlaze is a dynamic blogging platform built with the MERN stack and enhanced with Cloudinary for seamless image management, Tailwind CSS for beautiful and responsive design, and Date-fns for efficient date manipulation.`}
+          src={'assets/Colorful Modern Concept Free B Logo.png'}
+          code={'https://github.com/anurag270102/blogblaze'}
+          tech={Blogblaze_tech}
+        ></ProjectCard>
+
         <ProjectCard 
         title={'Code Stream'}
         desc={`Stream Code is a powerful and intuitive code editor application designed for seamless real-time collaboration among developers. Built with cutting-edge technologies including React, Node.js, Express.js, Socket.io, and CSS, Stream Code enables multiple users to code together simultaneously, making it ideal for remote teams, pair programming sessions`}
