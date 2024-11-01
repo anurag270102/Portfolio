@@ -7,6 +7,7 @@ const Project = () => {
   const Fiverrclone_tech = ['MERN', 'SCSS', 'Cloudinary', 'Stripe'];
   const CodeEditor_tech=['ReactJS','Socket.io','NodeJS','Codemirror','CSS'];
   const Blogblaze_tech=['MERN','Cloudinary','TailwindCSS'];
+  const Expressume_tech=['ReactJS','React Query','Firebase','TailwindCSS'];
   return ([
     <div key={1212}>
       <h2 className="font-PlayfairDisplaySC font-bold mx-auto items-center text-center text-black text-4xl mt-5 ">Projects</h2>
@@ -33,6 +34,15 @@ const Project = () => {
         code={'https://github.com/anurag270102/Code-Editor'}
         tech={CodeEditor_tech}
         ></ProjectCard>
+
+        <ProjectCard 
+        title={'Expressume'}
+        desc={'Expressume is a web-based resume builder created to streamline the resume-making process for students, professionals, and job seekers. Leveraging React.js, React Query, and Tailwind CSS, the platform offers a highly responsive and intuitive interface with real-time data management powered by Firebase.'}
+        src={'/assets/Expreesume.png'}
+        code={'https://github.com/anurag270102/Expressume'}
+        tech={Expressume_tech}
+        ></ProjectCard>
+
         <ProjectCard
           title={'Portfalio Website'}
           desc={'Crafted with precision using React and Tailwind CSS, my portfolio website showcases a seamless blend of modern design and functionality. With a user-friendly interface and dynamic animations, it not only reflects my technical expertise but also integrates seamlessly with EmailJS for efficient communication. Explore my work and skills in a visually appealing and interactive environment'}
