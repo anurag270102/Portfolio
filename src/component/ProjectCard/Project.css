@@ -5,10 +5,8 @@
 	overflow: hidden;	
 }
 .product-details {
-	position: relative;
-	
+	position: relative;	
 }
-
 #container .product-details h1:before{
 	transform: translate(25px, -15px);
 	background: #ffe6e6;
