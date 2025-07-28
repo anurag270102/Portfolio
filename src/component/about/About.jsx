@@ -14,8 +14,8 @@ const About = () => {
         <div className="flex flex-row flex-wrap justify-between lg:justify-evenly ">
           <Education
             title={"Collage"}
-            time={"OCT 2021 - PRESENT"}
-            per={"9.36 CGPA"}
+            time={"OCT 2021 - MAY 2025"}
+            per={"9.43 CGPA"}
             name1={"CHAROTAR UNIVERSITY  "}
             city={"ANAND,INDIA"}
           ></Education>
@@ -42,7 +42,14 @@ const About = () => {
       <div className="bg-white flex flex-row flex-wrap  justify-between lg:justify-evenly">
         <Experience
           name1={"THINKBIZ TECHNOLOGY PVT. LTD."}
-          time={"JAN 2025 - PRESENT"}
+          time={"JUL 2025 - PRESENT"}
+          title={"Jr. MERN Stack Developer"}
+          city={"AHMEDABAD,INDIA"}
+          tech={"FULL STACK"}
+        ></Experience>
+        <Experience
+          name1={"THINKBIZ TECHNOLOGY PVT. LTD."}
+          time={"JAN 2025 - JUN 2025"}
           title={"Internship"}
           city={"AHMEDABAD,INDIA"}
           tech={"MERN STACK"}
