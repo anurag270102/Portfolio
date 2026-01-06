@@ -44,7 +44,7 @@ const Project = () => {
         ></ProjectCard>
 
         <ProjectCard
-          title={'Portfalio Website'}
+          title={'Portfolio Website'}
           desc={'Crafted with precision using React and Tailwind CSS, my portfolio website showcases a seamless blend of modern design and functionality. With a user-friendly interface and dynamic animations, it not only reflects my technical expertise but also integrates seamlessly with EmailJS for efficient communication. Explore my work and skills in a visually appealing and interactive environment'}
           src={'/assets/portfalio.png'}
           code={'https://github.com/anurag270102/Portfolio'}
@@ -58,7 +58,7 @@ const Project = () => {
           tech={Simon_tech}
         ></ProjectCard>
         <ProjectCard
-          title={'Weather Forcast'}
+          title={'Weather Forecast'}
           desc={'The Weather API Webpage project is a dynamic web application that fetches weather data from an external API and displays it to users.The webpage features a background change based on the user’s weather conditions, enhancing the user experience'}
           src={'/assets/weather.png'}
           code={'https://github.com/anurag270102/WeatherApi'}

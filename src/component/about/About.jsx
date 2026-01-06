@@ -13,7 +13,7 @@ const About = () => {
         </h2>
         <div className="flex flex-row flex-wrap justify-between lg:justify-evenly ">
           <Education
-            title={"Collage"}
+            title={"College"}
             time={"OCT 2021 - MAY 2025"}
             per={"9.43 CGPA"}
             name1={"CHAROTAR UNIVERSITY  "}
